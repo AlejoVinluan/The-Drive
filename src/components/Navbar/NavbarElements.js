@@ -7,7 +7,6 @@ export const Nav = styled.nav`
     height: 85px;
     display: flex;
     justify-content: space-between;
-    z-index: 12;
 `
 
 export const NavLink = styled(Link)`
