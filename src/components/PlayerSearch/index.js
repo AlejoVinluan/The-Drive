@@ -1,13 +1,12 @@
 import React from 'react'
-import { AiOutlineSearch } from 'react-icons/ai'
 import TextField from '@mui/material/TextField'
-import { SearchWrapper } from './PlayerSearchElements'
+import { SearchWrapper, SearchIcon, SearchField } from './PlayerSearchElements'
 
 function PlayerSearch(){
     return(
         <>
             <SearchWrapper>
-                <AiOutlineSearch /><TextField id="standard-basic" label="Player Name" variant="standard"/>
+                <SearchIcon /><TextField id="standard-basic" label="Player Name" variant="standard"/>
             </SearchWrapper>
         </>
     )
