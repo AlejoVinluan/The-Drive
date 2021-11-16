@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import TextField from '@mui/material/TextField'
-import { SearchWrapper, SearchIcon, SearchResults } from './PlayerSearchElements'
+import { SearchWrapper, SearchIcon, SearchResults, SearchField } from './PlayerSearchElements'
 
 function PlayerSearch(){
 
@@ -24,7 +23,7 @@ function PlayerSearch(){
         <>
             <SearchWrapper>
                 <form onSubmit={handleSubmit}>
-                    <SearchIcon /><TextField id="standard-basic" label="Player Name" variant="standard" onChange={handleChange} value={searchValue}/>
+                    <SearchIcon /><SearchField id="standard-basic" label="Player Name" variant="standard" onChange={handleChange} value={searchValue}/>
                 </form>
             </SearchWrapper>
             <SearchResults>

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { AiOutlineSearch } from 'react-icons/ai'
+import TextField from '@mui/material/TextField'
 
 export const SearchWrapper = styled.div`
     background: #f8f8ff;
@@ -8,16 +9,19 @@ export const SearchWrapper = styled.div`
     display: flex;
     align-items: center;
     padding-left: 40%;
-    padding-top: 1rem;
+    margin-top 1rem;
 `
 
 export const SearchIcon = styled(AiOutlineSearch)`
     transform: scale(2,2);
     position: relative;
     right: 1rem;
-    top: 0.5rem;
+    top: 1.6rem;
+`
+
+export const SearchField = styled(TextField)`
 `
 
 export const SearchResults = styled.div`
-
+    
 `
