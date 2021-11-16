@@ -17,3 +17,7 @@ export const SearchIcon = styled(AiOutlineSearch)`
     right: 1rem;
     top: 0.5rem;
 `
+
+export const SearchResults = styled.div`
+
+`
